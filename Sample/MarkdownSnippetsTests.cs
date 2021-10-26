@@ -9,7 +9,6 @@ public class MarkdownSnippetsTests
     {
         #region collection
 
-
         var players = new List<Player>
         {
             new(Name: "Alex", Team: "Team A", Score: 10),
@@ -17,7 +16,6 @@ public class MarkdownSnippetsTests
             new(Name: "Luke", Team: "Team L", Score: 60),
             new(Name: "Lucy", Team: "Team L", Score: 40),
         };
-
 
         #endregion
 

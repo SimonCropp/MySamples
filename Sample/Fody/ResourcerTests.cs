@@ -7,7 +7,7 @@ public class ResourcerTests :
     [Fact]
     public void Resourcer()
     {
-        var stringValue = Resource.AsString("MyResource.txt");
+        var stringValue = Resource.AsString("Resource.txt");
         Trace.WriteLine(stringValue);
     }
     
