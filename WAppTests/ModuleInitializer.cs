@@ -8,5 +8,6 @@ public static class ModuleInitializer
     {
         VerifyImageMagick.RegisterComparers(.019);
         VerifyXaml.Enable();
+        VerifyWinForms.Enable();
     }
 }
