@@ -1,6 +1,6 @@
 ﻿{
-  SolutionDirectory: {SolutionDirectory},
-  SourceFile: {ProjectDirectory}XunitContextTests.cs,
+  SolutionDirectory: D:\Code\MySamples,
+  SourceFile: D:\Code\MySamples\Sample\XunitContextTests.cs,
   Logs: [
     Message written to Trace,
     Message written to Debug
