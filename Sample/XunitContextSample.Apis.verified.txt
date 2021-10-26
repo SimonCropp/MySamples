@@ -1,0 +1,8 @@
+﻿{
+  SolutionDirectory: {SolutionDirectory},
+  SourceFile: {ProjectDirectory}XunitContextSample.cs,
+  Logs: [
+    Message written to Trace,
+    Message written to Debug
+  ]
+}

@@ -6,7 +6,7 @@ using SimpleCalculator;
 
 [TestFixture]
 [Apartment(ApartmentState.STA)]
-public class Form1Tests
+public class WinFormsTests
 {
     [Test]
     public async Task FormUsage()

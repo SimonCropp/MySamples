@@ -6,7 +6,7 @@ using WpfApp;
 
 [Apartment(ApartmentState.STA)]
 [TestFixture]
-public class MainWindowTests
+public class WpfTests
 {
     [Test]
     public async Task WindowUsage()

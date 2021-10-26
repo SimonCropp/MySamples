@@ -1,0 +1,12 @@
+﻿{
+  state: Australian Capital Territory,
+  province: CANBERRA,
+  place: {
+    Name: Acton,
+    PostCode: 2601,
+    Location: {
+      Latitude: -35.2816,
+      Longitude: 149.1189
+    }
+  }
+}

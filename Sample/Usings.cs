@@ -1,0 +1,11 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.IO;
+global using System.Linq;
+global using System.Runtime.CompilerServices;
+global using Newtonsoft.Json;
+global using System.Diagnostics;
+global using System.Threading.Tasks;
+global using VerifyXunit;
+global using Xunit;
+global using Xunit.Abstractions;
