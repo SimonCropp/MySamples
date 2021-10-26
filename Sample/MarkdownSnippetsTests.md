@@ -7,7 +7,7 @@
 ```cs
 public record Player(string Name, string Team, int Score);
 ```
-<sup><a href='/Sample/MarkdownSnippetsTests.cs#L42-L46' title='Snippet source file'>snippet source</a> | <a href='#snippet-record' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/Sample/MarkdownSnippetsTests.cs#L41-L45' title='Snippet source file'>snippet source</a> | <a href='#snippet-record' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 ## And a collection of items
@@ -23,7 +23,7 @@ var players = new List<Player>
     new(Name: "Lucy", Team: "Team L", Score: 40),
 };
 ```
-<sup><a href='/Sample/MarkdownSnippetsTests.cs#L10-L22' title='Snippet source file'>snippet source</a> | <a href='#snippet-collection' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/Sample/MarkdownSnippetsTests.cs#L9-L21' title='Snippet source file'>snippet source</a> | <a href='#snippet-collection' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 
@@ -43,7 +43,7 @@ var scores =
         TotakScore = playerGroup.Sum(x => x.Score),
     };
 ```
-<sup><a href='/Sample/MarkdownSnippetsTests.cs#L24-L37' title='Snippet source file'>snippet source</a> | <a href='#snippet-query' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/Sample/MarkdownSnippetsTests.cs#L23-L36' title='Snippet source file'>snippet source</a> | <a href='#snippet-query' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 
