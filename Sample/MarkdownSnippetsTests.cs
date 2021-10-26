@@ -1,6 +1,7 @@
 ﻿
 // https://github.com/SimonCropp/MarkdownSnippets
 
+[UsesVerify]
 public class MarkdownSnippetsTests
 {
     [Fact]

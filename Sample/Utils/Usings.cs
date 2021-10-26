@@ -28,3 +28,5 @@ global using AustralianElectorates.Bogus;
 global using EmptyFiles;
 global using NaughtyStrings;
 global using TextCopy;
+global using System.ComponentModel;
+global using Resourcer;
