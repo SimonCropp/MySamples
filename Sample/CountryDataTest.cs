@@ -1,5 +1,5 @@
 ﻿
-//https://github.com/SimonCropp/CountryData
+// https://github.com/SimonCropp/CountryData
 
 [UsesVerify]
 public class CountryDataTest :
@@ -23,21 +23,13 @@ public class CountryDataTest :
     }
 
     [Fact]
-    public void RandomData()
+    public void Bogus()
     {
         var faker = new Faker<Target>()
-            .RuleFor(
-                property: u => u.RandomCountryName,
-                setter: (f, u) => f.Country().Name())
-            .RuleFor(
-                property: u => u.AustralianCapital,
-                setter: (f, u) => f.Country().Australia().Capital)
-            .RuleFor(
-                property: u => u.RandomIrelandState,
-                setter: (f, u) => f.Country().Ireland().State().Name)
-            .RuleFor(
-                property: u => u.RandomIcelandPostCode,
-                setter: (f, u) => f.Country().Iceland().PostCode());
+            .RuleFor(u => u.RandomCountryName, f => f.Country().Name())
+            .RuleFor(u => u.AustralianCapital, f => f.Country().Australia().Capital)
+            .RuleFor(u => u.RandomIrelandState, f => f.Country().Ireland().State().Name)
+            .RuleFor(u => u.RandomIcelandPostCode, f => f.Country().Iceland().PostCode());
         var instance = faker.Generate();
         Trace.WriteLine(JsonConvert.SerializeObject(instance));
     }

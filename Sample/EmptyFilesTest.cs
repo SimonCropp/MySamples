@@ -1,5 +1,5 @@
 ﻿
-//https://github.com/VerifyTests/EmptyFiles
+// https://github.com/VerifyTests/EmptyFiles
 
 [UsesVerify]
 public class EmptyFilesTest :

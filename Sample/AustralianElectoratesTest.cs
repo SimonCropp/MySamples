@@ -1,5 +1,6 @@
 ﻿
-//https://github.com/pmcau/AustralianElectorates
+// https://github.com/pmcau/AustralianElectorates
+// https://github.com/pmcau/AustralianElectorates/tree/master/Data
 
 [UsesVerify]
 public class AustralianElectoratesTest :
@@ -27,15 +28,11 @@ public class AustralianElectoratesTest :
     }
 
     [Fact]
-    public void RandomData()
+    public void Bogus()
     {
         var faker = new Faker<Target>()
-            .RuleFor(
-                property: u => u.RandomElectorate,
-                setter: (f, _) => f.AustralianElectorates().Electorate())
-            .RuleFor(
-                property: u => u.RandomElectorateName,
-                setter: (f, _) => f.AustralianElectorates().Name());
+            .RuleFor(u => u.RandomElectorate, f => f.AustralianElectorates().Electorate())
+            .RuleFor(u => u.RandomElectorateName, f => f.AustralianElectorates().Name());
         var instance = faker.Generate();
         Trace.WriteLine(JsonConvert.SerializeObject(instance));
     }
