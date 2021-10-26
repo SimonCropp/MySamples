@@ -1,8 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using Verify.AngleSharp;
-using VerifyTests;
-
-public static class VerifyModuleInitializer
+﻿public static class VerifyModuleInitializer
 {
     [ModuleInitializer]
     public static void Initialize()

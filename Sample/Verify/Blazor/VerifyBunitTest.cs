@@ -1,10 +1,4 @@
-﻿using System.Threading.Tasks;
-using Bunit;
-using VerifyTests;
-using VerifyXunit;
-using Xunit;
-
-[UsesVerify]
+﻿[UsesVerify]
 public class VerifyBunitTest
 {
     static VerifyBunitTest()

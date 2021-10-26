@@ -1,15 +1,4 @@
-﻿using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Bogus;
-using CountryData;
-using CountryData.Bogus;
-using Newtonsoft.Json;
-using VerifyXunit;
-using Xunit;
-using Xunit.Abstractions;
-
-[UsesVerify]
+﻿[UsesVerify]
 public class CountryDataTest :
     XunitContextBase
 {

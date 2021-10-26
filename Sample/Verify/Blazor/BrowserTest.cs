@@ -1,10 +1,4 @@
-﻿#if(DEBUG)
-using System.Threading.Tasks;
-using Microsoft.Playwright;
-using VerifyXunit;
-using Xunit;
-
-[UsesVerify]
+﻿[UsesVerify]
 public class BrowserTest :
     IClassFixture<PlaywrightFixture>
 {
@@ -34,4 +28,3 @@ public class BrowserTest :
         await Verifier.Verify(element);
     }
 }
-#endif

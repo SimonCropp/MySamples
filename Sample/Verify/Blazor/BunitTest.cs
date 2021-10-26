@@ -1,6 +1,4 @@
-﻿using Bunit;
-using BlazorWebApp.Pages;
-using Xunit;
+﻿using BlazorWebApp.Pages;
 
 public class BunitTest
 {
