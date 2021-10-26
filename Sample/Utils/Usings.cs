@@ -30,3 +30,5 @@ global using NaughtyStrings;
 global using TextCopy;
 global using System.ComponentModel;
 global using Resourcer;
+global using FluentValidation;
+global using Replicant;

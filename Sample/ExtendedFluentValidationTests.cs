@@ -1,8 +1,6 @@
 ﻿
 // https://github.com/SimonCropp/ExtendedFluentValidation
 
-using FluentValidation;
-
 [UsesVerify]
 public class ExtendedFluentValidationTests :
     XunitContextBase

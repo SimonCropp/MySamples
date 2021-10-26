@@ -1,0 +1,25 @@
+﻿{
+  Version: 1.1,
+  StatusCode: OK,
+  IsSuccessStatusCode: true,
+  ReasonPhrase: OK,
+  Headers: {
+    Accept-Ranges: bytes,
+    Access-Control-Allow-Origin: *,
+    Access-Control-Expose-Headers: Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache,
+    Connection: keep-alive,
+    Date: DateTime_1,
+    ETag: Guid_1,
+    NEL: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0},
+    Permissions-Policy: interest-cohort=(),
+    Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] },
+    Server: ATS/8.0.8,
+    Server-Timing: cache;desc="hit-front", host;desc="cp5006",
+    Strict-Transport-Security: max-age=106384710; includeSubDomains; preload,
+    Timing-Allow-Origin: *,
+    X-Cache-Status: hit-front,
+    X-Client-IP: 45.67.96.36,
+    X-Object-Meta-Sha1Base36: 6pao5bypjfkb1pkrusiwcxqi2aeso8f,
+    X-Timestamp: 1380953486.70080
+  }
+}

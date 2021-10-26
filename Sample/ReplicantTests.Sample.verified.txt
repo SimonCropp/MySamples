@@ -1,0 +1,39 @@
+﻿{
+  stringContent:
+{
+  "slideshow": {
+    "author": "Yours Truly", 
+    "date": "date of publication", 
+    "slides": [
+      {
+        "title": "Wake up to WonderWidgets!", 
+        "type": "all"
+      }, 
+      {
+        "items": [
+          "Why <em>WonderWidgets</em> are great", 
+          "Who <em>buys</em> WonderWidgets"
+        ], 
+        "title": "Overview", 
+        "type": "all"
+      }
+    ], 
+    "title": "Sample Slide Show"
+  }
+}
+,
+  response: {
+    Version: 1.1,
+    StatusCode: OK,
+    IsSuccessStatusCode: true,
+    ReasonPhrase: OK,
+    Headers: {
+      Access-Control-Allow-Credentials: true,
+      Access-Control-Allow-Origin: *,
+      Connection: keep-alive,
+      Date: DateTime_1,
+      Server: gunicorn/19.9.0
+    },
+    Request: null
+  }
+}
