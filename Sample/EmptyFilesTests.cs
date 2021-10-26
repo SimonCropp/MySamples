@@ -2,7 +2,7 @@
 // https://github.com/VerifyTests/EmptyFiles
 
 [UsesVerify]
-public class EmptyFilesTest :
+public class EmptyFilesTests :
     XunitContextBase
 {
     [Fact]
@@ -25,7 +25,7 @@ public class EmptyFilesTest :
         }
     }
 
-    public EmptyFilesTest(ITestOutputHelper output) :
+    public EmptyFilesTests(ITestOutputHelper output) :
         base(output)
     {
     }

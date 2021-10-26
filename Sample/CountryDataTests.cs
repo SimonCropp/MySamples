@@ -2,7 +2,7 @@
 // https://github.com/SimonCropp/CountryData
 
 [UsesVerify]
-public class CountryDataTest :
+public class CountryDataTests :
     XunitContextBase
 {
     [Fact]
@@ -42,7 +42,7 @@ public class CountryDataTest :
         public string? RandomIcelandPostCode { get; set; }
     }
 
-    public CountryDataTest(ITestOutputHelper output) :
+    public CountryDataTests(ITestOutputHelper output) :
         base(output)
     {
     }

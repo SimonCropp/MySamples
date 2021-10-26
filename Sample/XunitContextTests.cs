@@ -2,7 +2,7 @@
 //https://github.com/SimonCropp/XunitContext
 
 [UsesVerify]
-public class XunitContextSample :
+public class XunitContextTests :
     XunitContextBase
 {
     [Fact]
@@ -19,7 +19,7 @@ public class XunitContextSample :
             });
     }
 
-    public XunitContextSample(ITestOutputHelper output) :
+    public XunitContextTests(ITestOutputHelper output) :
         base(output)
     {
     }

@@ -3,7 +3,7 @@
 // https://github.com/pmcau/AustralianElectorates/tree/master/Data
 
 [UsesVerify]
-public class AustralianElectoratesTest :
+public class AustralianElectoratesTests :
     XunitContextBase
 {
     [Fact]
@@ -43,7 +43,7 @@ public class AustralianElectoratesTest :
         public IElectorate? RandomElectorate { get; set; }
     }
 
-    public AustralianElectoratesTest(ITestOutputHelper output) :
+    public AustralianElectoratesTests(ITestOutputHelper output) :
         base(output)
     {
     }

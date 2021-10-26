@@ -5,7 +5,7 @@
 using WaffleGenerator;
 
 [UsesVerify]
-public class WaffleGeneratorTest :
+public class WaffleGeneratorTests :
     XunitContextBase
 {
     [Fact]
@@ -42,7 +42,7 @@ public class WaffleGeneratorTest :
         public string? HtmlParagraph { get; set; }
     }
 
-    public WaffleGeneratorTest(ITestOutputHelper output) :
+    public WaffleGeneratorTests(ITestOutputHelper output) :
         base(output)
     {
     }

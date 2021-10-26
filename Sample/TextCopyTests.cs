@@ -2,7 +2,7 @@
 // https://github.com/CopyText/TextCopy
 
 [UsesVerify]
-public class TextCopyTest
+public class TextCopyTests
 {
     [Fact]
     public async Task Apis()
