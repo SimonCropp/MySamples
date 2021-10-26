@@ -15,14 +15,16 @@ public class ReplicantTests
     [Fact]
     public async Task Json()
     {
-        var json = await cache.StringAsync("https://raw.githubusercontent.com/LearnWebCode/json-example/master/animals-1.json");
+        var url = "https://raw.githubusercontent.com/LearnWebCode/json-example/master/animals-1.json";
+        var json = await cache.StringAsync(url);
         await Verifier.Verify(json);
     }
 
     [Fact]
     public async Task Image()
     {
-        using var response = await cache.ResponseAsync("https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg");
+        var url = "https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg";
+        using var response = await cache.ResponseAsync(url);
         await Verifier.Verify(response);
     }
 }
