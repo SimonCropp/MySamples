@@ -26,3 +26,4 @@ global using VerifyTests.Blazor;
 global using AustralianElectorates;
 global using AustralianElectorates.Bogus;
 global using EmptyFiles;
+global using TextCopy;
