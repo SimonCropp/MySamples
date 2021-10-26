@@ -5,7 +5,7 @@
 public class MarkdownSnippetsTests
 {
     [Fact]
-    public Task MySnippet()
+    public Task Usage()
     {
         #region collection
 

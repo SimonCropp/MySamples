@@ -6,7 +6,7 @@ public class CountryDataTests :
     XunitContextBase
 {
     [Fact]
-    public Task Apis()
+    public Task Usage()
     {
         var country = CountryLoader.LoadAustraliaLocationData();
         var state = country.States.First();

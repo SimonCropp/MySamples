@@ -4,13 +4,13 @@
 public class TextCopyTests
 {
     [Fact]
-    public async Task Apis()
+    public async Task Usage()
     {
-        await ClipboardService.SetTextAsync("My text");
-        Assert.Equal("My text", await ClipboardService.GetTextAsync());
+        await ClipboardService.SetTextAsync("My text 1");
+        Assert.Equal("My text 1", await ClipboardService.GetTextAsync());
 
-        ClipboardService.SetText("My text");
-        Assert.Equal("My text", ClipboardService.GetText());
+        ClipboardService.SetText("My text 2");
+        Assert.Equal("My text 2", ClipboardService.GetText());
     }
 }
 

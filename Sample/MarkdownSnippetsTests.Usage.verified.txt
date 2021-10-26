@@ -1,0 +1,12 @@
+﻿[
+  {
+    Team: Team A,
+    BestScore: 20,
+    TotakScore: 30
+  },
+  {
+    Team: Team L,
+    BestScore: 60,
+    TotakScore: 100
+  }
+]

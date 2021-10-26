@@ -8,7 +8,7 @@ public class WaffleGeneratorTests :
     XunitContextBase
 {
     [Fact]
-    public void Apis()
+    public void Usage()
     {
         var text = WaffleEngine.Html(
             paragraphs: 2,
@@ -18,7 +18,7 @@ public class WaffleGeneratorTests :
     }
 
     [Fact]
-    public void Bogus()
+    public void BogusUsage()
     {
         var faker = new Faker<Target>()
             .RuleFor(u => u.Title, f => f.WaffleTitle())

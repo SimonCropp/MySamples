@@ -6,7 +6,7 @@ public class XunitContextTests :
     XunitContextBase
 {
     [Fact]
-    public Task Apis()
+    public Task Usage()
     {
         Trace.WriteLine("Message written to Trace");
         Debug.WriteLine("Message written to Debug");

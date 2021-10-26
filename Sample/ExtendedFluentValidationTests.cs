@@ -6,7 +6,7 @@ public class ExtendedFluentValidationTests :
     XunitContextBase
 {
     [Fact]
-    public Task Sample()
+    public Task Usage()
     {
         var validator = new PersonValidator();
 

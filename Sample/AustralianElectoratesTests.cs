@@ -7,7 +7,7 @@ public class AustralianElectoratesTests :
     XunitContextBase
 {
     [Fact]
-    public Task Apis()
+    public Task Usage()
     {
         var electorate = DataLoader.Electorates.Single(x => x.Name == "Canberra");
         return Verifier.Verify(new
@@ -28,7 +28,7 @@ public class AustralianElectoratesTests :
     }
 
     [Fact]
-    public void Bogus()
+    public void BogusUsage()
     {
         var faker = new Faker<Target>()
             .RuleFor(u => u.RandomElectorate, f => f.AustralianElectorates().Electorate())
