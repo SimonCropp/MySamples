@@ -1,21 +1,20 @@
 ﻿
 // https://github.com/VerifyTests/EmptyFiles
 
-[UsesVerify]
 public class EmptyFilesTests :
     XunitContextBase
 {
     [Fact]
     public void WriteExtensions()
     {
-        WriteCategory("Archive", AllFiles.Archives);
-        WriteCategory("Document", AllFiles.Documents);
-        WriteCategory("Image", AllFiles.Images);
-        WriteCategory("Sheet", AllFiles.Sheets);
-        WriteCategory("Slide", AllFiles.Slides);
+        Write("Archive", AllFiles.Archives);
+        Write("Document", AllFiles.Documents);
+        Write("Image", AllFiles.Images);
+        Write("Sheet", AllFiles.Sheets);
+        Write("Slide", AllFiles.Slides);
     }
 
-    static void WriteCategory(string category, IReadOnlyDictionary<string, EmptyFile> files)
+    static void Write(string category, IReadOnlyDictionary<string, EmptyFile> files)
     {
         Trace.WriteLine($"## {category}");
         foreach (var file in files.OrderBy(x => x.Key))
