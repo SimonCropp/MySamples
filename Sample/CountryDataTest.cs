@@ -1,4 +1,5 @@
-﻿[UsesVerify]
+﻿//https://github.com/SimonCropp/CountryData
+[UsesVerify]
 public class CountryDataTest :
     XunitContextBase
 {

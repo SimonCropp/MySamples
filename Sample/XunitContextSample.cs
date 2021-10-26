@@ -1,4 +1,5 @@
-﻿[UsesVerify]
+﻿//https://github.com/SimonCropp/XunitContext
+[UsesVerify]
 public class XunitContextSample :
     XunitContextBase
 {

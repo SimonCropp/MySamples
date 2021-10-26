@@ -23,3 +23,5 @@ global using VerifyTests.Http;
 global using Microsoft.Playwright;
 global using Bunit;
 global using VerifyTests.Blazor;
+global using AustralianElectorates;
+global using AustralianElectorates.Bogus;

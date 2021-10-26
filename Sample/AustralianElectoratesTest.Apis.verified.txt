@@ -1,0 +1,7 @@
+﻿{
+  Name: Canberra,
+  Area: 312.0,
+  Elected: Payne, Alicia,
+  CurrentParty: Australian Labor Party (ACT Branch),
+  Description: <p>The Division of Canberra covers an area in central ACT consisting of the Districts of:</p><ul><li>Canberra Central,</li><li>Kowen,</li><li>Majura,</li><li>part of Belconnen,</li><li>part of Jerrabomberra,</li><li>part of Molonglo Valley,</li><li>part of Weston Creek, and</li><li>part of Woden Valley</li></ul>
+}
