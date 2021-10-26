@@ -1,7 +1,6 @@
 ﻿
 // https://github.com/SimonCropp/NaughtyStrings
 
-[UsesVerify]
 public class NaughtyStringsTests :
     XunitContextBase
 {

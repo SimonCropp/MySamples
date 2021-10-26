@@ -1,7 +1,6 @@
 ﻿
 // https://github.com/CopyText/TextCopy
 
-[UsesVerify]
 public class TextCopyTests
 {
     [Fact]
