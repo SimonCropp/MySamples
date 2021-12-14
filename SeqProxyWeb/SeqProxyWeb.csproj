@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net5</TargetFramework>
+    <TargetFramework>net6</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="sample.*">
@@ -10,6 +10,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
-    <PackageReference Include="SeqProxy" Version="2.0.0" />
+    <PackageReference Include="SeqProxy" Version="3.0.0" />
   </ItemGroup>
 </Project>
