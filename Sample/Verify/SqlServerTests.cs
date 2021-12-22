@@ -84,7 +84,7 @@ END;");
         await using var database = await sqlInstance.Build();
         var connection = database.Connection;
 
-        await Verifier.Verify(connection);
+        await Verify(connection);
     }
 
     [Fact]
@@ -95,7 +95,7 @@ END;");
 
         SqlRecording.StartRecording();
         var value = MethodUnderTest(database.Connection);
-        await Verifier.Verify(value);
+        await Verify(value);
     }
 
     static int MethodUnderTest(SqlConnection connection)

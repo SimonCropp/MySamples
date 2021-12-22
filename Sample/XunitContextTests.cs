@@ -10,7 +10,7 @@ public class XunitContextTests :
     {
         Trace.WriteLine("Message written to Trace");
         Debug.WriteLine("Message written to Debug");
-        return Verifier.Verify(
+        return Verify(
             new
             {
                 base.SolutionDirectory,

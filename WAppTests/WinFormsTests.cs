@@ -8,6 +8,6 @@ public class WinFormsTests
     public async Task FormUsage()
     {
         var form = new Form1();
-        await Verifier.Verify(form);
+        await Verify(form);
     }
 }

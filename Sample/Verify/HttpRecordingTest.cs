@@ -8,7 +8,7 @@ public class HttpRecordingTest
 
         var sizeOfResponse = await MethodThatDoesHttpCalls();
 
-        await Verifier.Verify(sizeOfResponse)
+        await Verify(sizeOfResponse)
             .ModifySerialization(
                 x => x.IgnoreMember("Date"));
     }

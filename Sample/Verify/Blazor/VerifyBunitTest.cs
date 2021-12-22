@@ -17,6 +17,6 @@ public class VerifyBunitTest
         // the counter in the <p> element
         component.Find("button").Click();
 
-        return Verifier.Verify(component);
+        return Verify(component);
     }
 }

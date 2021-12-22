@@ -8,6 +8,6 @@ public class VerifyBlazorTest
     {
         var target = Render.Component<Counter>(
             callback: component => { component.IncrementCount(); });
-        return Verifier.Verify(target);
+        return Verify(target);
     }
 }

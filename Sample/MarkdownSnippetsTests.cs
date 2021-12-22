@@ -34,7 +34,7 @@ public class MarkdownSnippetsTests
 
         #endregion
 
-        return Verifier.Verify(scores);
+        return Verify(scores);
     }
 
     #region record

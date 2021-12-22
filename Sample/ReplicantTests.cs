@@ -17,7 +17,7 @@ public class ReplicantTests
     {
         var url = "https://raw.githubusercontent.com/LearnWebCode/json-example/master/animals-1.json";
         var json = await cache.StringAsync(url);
-        await Verifier.Verify(json);
+        await Verify(json);
     }
 
     [Fact]
@@ -25,6 +25,6 @@ public class ReplicantTests
     {
         var url = "https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg";
         using var response = await cache.ResponseAsync(url);
-        await Verifier.Verify(response);
+        await Verify(response);
     }
 }

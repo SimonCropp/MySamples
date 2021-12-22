@@ -13,7 +13,7 @@ public class CountryDataTests :
         var province = state.Provinces.First();
         var community = province.Communities.First();
         var place = community.Places.First();
-        return Verifier.Verify(new
+        return Verify(new
         {
             state= state.Name,
             province = province.Name,

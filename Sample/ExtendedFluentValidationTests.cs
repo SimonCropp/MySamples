@@ -12,7 +12,7 @@ public class ExtendedFluentValidationTests :
 
         var target = new Person();
         var result = validator.Validate(target);
-        return Verifier.Verify(result);
+        return Verify(result);
     }
 
     class PersonValidator : ExtendedValidator<Person> { }

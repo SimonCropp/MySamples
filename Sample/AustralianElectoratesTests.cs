@@ -10,7 +10,7 @@ public class AustralianElectoratesTests :
     public Task Usage()
     {
         var electorate = DataLoader.Electorates.Single(x => x.Name == "Canberra");
-        return Verifier.Verify(new
+        return Verify(new
         {
             electorate.Name,
             electorate.Area,
@@ -24,7 +24,7 @@ public class AustralianElectoratesTests :
     public Task DetailMap()
     {
         var detailMapPath = DetailMaps.MapForElectorate("Canberra");
-        return Verifier.VerifyFile(detailMapPath);
+        return VerifyFile(detailMapPath);
     }
 
     [Fact]
