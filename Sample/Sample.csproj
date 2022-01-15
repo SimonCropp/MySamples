@@ -27,7 +27,7 @@
     <PackageReference Include="Verify.Blazor" Version="7.2.0" />
     <PackageReference Include="AustralianElectorates.Bogus" Version="7.29.0" />
     <PackageReference Include="Verify.BUnit" Version="7.2.0" />
-    <PackageReference Include="XunitContext" Version="3.1.1" />
+    <PackageReference Include="XunitContext" Version="3.1.2" />
     <PackageReference Include="TextCopy" Version="5.0.2" />
     <PackageReference Include="WaffleGenerator.Bogus" Version="4.2.1" />
     <ProjectReference Include="..\BlazorWebApp\BlazorWebApp.csproj" />
