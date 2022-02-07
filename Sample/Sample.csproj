@@ -23,7 +23,7 @@
     <PackageReference Include="Verify.ImageMagick" Version="2.13.1" />
     <PackageReference Include="Replicant" Version="1.2.0" />
     <PackageReference Include="Verify.Playwright" Version="1.6.0" />
-    <PackageReference Include="Verify.Xunit" Version="16.0.0" />
+    <PackageReference Include="Verify.Xunit" Version="16.1.0" />
     <PackageReference Include="Verify.Blazor" Version="7.3.0" />
     <PackageReference Include="AustralianElectorates.Bogus" Version="7.30.0" />
     <PackageReference Include="Verify.BUnit" Version="7.3.0" />
