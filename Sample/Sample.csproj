@@ -8,7 +8,7 @@
     <EmbeddedResource Include="Fody\Resource.txt" />
     <PackageReference Include="ExtendedFluentValidation" Version="1.3.0" />
     <PackageReference Include="AustralianElectorates.DetailMaps" Version="7.31.0" />
-    <PackageReference Include="CountryData.Bogus" Version="3.70.0" />
+    <PackageReference Include="CountryData.Bogus" Version="3.71.0" />
     <PackageReference Include="LocalDb" Version="13.4.0" />
     <PackageReference Include="EmptyFiles" Version="2.8.0" />
     <PackageReference Include="Microsoft.Playwright" Version="1.19.0" />
