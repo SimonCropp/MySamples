@@ -1,12 +1,10 @@
-# User-specific files
+*.suo
 *.user
-
-# Build results
-[Bb]in/
-[Oo]bj/
-
-# Visual Studio
+bin/
+obj/
 .vs/
-
+*.DotSettings.user
+.idea/
 *.received.*
-ReplicantCache/*
+nugets/
+ReplicantCache/
