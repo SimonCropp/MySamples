@@ -24,7 +24,7 @@
     <PackageReference Include="Replicant" Version="1.2.0" />
     <PackageReference Include="Verify.Playwright" Version="1.6.0" />
     <PackageReference Include="Verify.Xunit" Version="16.4.2" />
-    <PackageReference Include="Verify.Blazor" Version="7.3.0" />
+    <PackageReference Include="Verify.Blazor" Version="7.5.0" />
     <PackageReference Include="AustralianElectorates.Bogus" Version="7.31.0" />
     <PackageReference Include="Verify.BUnit" Version="7.3.0" />
     <PackageReference Include="XunitContext" Version="3.2.1" />
