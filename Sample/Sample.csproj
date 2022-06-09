@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Fody\Resource.txt" />
-    <PackageReference Include="ExtendedFluentValidation" Version="1.5.0" />
+    <PackageReference Include="ExtendedFluentValidation" Version="1.5.1" />
     <PackageReference Include="AustralianElectorates.DetailMaps" Version="8.5.0" />
     <PackageReference Include="CountryData.Bogus" Version="3.73.0" />
     <PackageReference Include="LocalDb" Version="13.6.0" />
